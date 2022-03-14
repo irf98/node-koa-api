@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-passport": "^4.1.4",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.2.6"
+  }
+}
