@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const uri = 'mongodb+srv://root:test@cluster0.zpcrp.mongodb.net/ecommerce?retryWrites=true&w=majority';
+const uri = 'mongo-uri';
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true
