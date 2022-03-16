@@ -30,8 +30,9 @@ router.post('/signin', passport.authenticate('signin'), async (ctx) => {
         user,
         cart
       }
+      console.log(data);
       ctx.response.status = 200;
-      return ctx.body = data;
+      return ctx.body = user;
     } else {
       ctx.response.status = 404;
       return ctx.body = {

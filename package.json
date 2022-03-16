@@ -6,6 +6,8 @@
     "koa-body": "^4.2.0",
     "koa-passport": "^4.1.4",
     "koa-router": "^10.1.1",
-    "mongoose": "^6.2.6"
+    "koa-session": "^6.2.0",
+    "mongoose": "^6.2.6",
+    "passport-local": "^1.0.0"
   }
 }

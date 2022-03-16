@@ -1,7 +1,7 @@
 import passport from 'koa-passport';
 import LocalStrategy from 'passport-local';
 import bcrypt from 'bcrypt';
-import User from '../models/userModel.js';
+import User from './model.js';
 
 function isValidPassword(user, password) {
   return bcrypt.compareSync(password, user.password);
